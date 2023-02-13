@@ -1,0 +1,86 @@
+ <!-- Section Title -->
+<div class="sec-title">
+  <div class="sub-title">Proudly Displaying Projects</div>
+  <h2>Recent <span>Work</span></h2>
+  <div class="bottom-style"></div>
+
+</div>  <!-- Sectitle -->
+
+
+ <section class="slider">
+      <div id="our-id" class="carousel slide" data-ride="carousel">
+        <ul class="our-bullet">
+          <li data-target="our-id" data-slide-to="0" class="active
+      "></li>
+          <li data-target="our-id" data-slide-to="1"></li>
+          <li data-target="our-id" data-slide-to="2"></li>
+          <li data-target="our-id" data-slide-to="3"></li>
+        </ul>
+        <div class="carousel-inner">
+          <div class="carousel-item slider-item active">
+            <img src="./images/1.jpg" alt="alider-image">
+            <div class="slider-content">
+              <p class="slider-p-top">Everything you need to have in order to create a</p>
+              <h1>stunning website</h1>
+              <p class="slider-p-bottom">Live Composer is a front-end content builder plugin for WordPress with 30+ modules (and more to come) packed with functionality and styling options that allow countless variations to be made easily and without any coding.</p>
+              <div class="slider-buttons">
+                <button class="btn our-btn-1">Discover Now</button>
+                <button class="btn our-btn-2">Contact Us</button>
+              </div>
+            </div>
+          </div><!-- Slider Item-->
+          <div class="carousel-item slider-item">
+            <img src="./images/2.jpg" alt="alider-image1">
+            <div class="slider-content">
+              <p class="slider-p-top">Everything you need to have in order to create a</p>
+              <h1>stunning website</h1>
+              <p class="slider-p-bottom">Live Composer is a front-end content builder plugin for WordPress with 30+ modules (and more to come) packed with functionality and styling options that allow countless variations to be made easily and without any coding.</p>
+              <div class="slider-buttons">
+                <button class="btn our-btn-1">Discover Now</button>
+                <button class="btn our-btn-2">Contact Us</button>
+              </div>
+            </div>
+          </div><!-- Slider Item-->
+          <div class="carousel-item slider-item">
+            <img src="./images/1.jpg" alt="alider-image2">
+            <div class="slider-content">
+              <p class="slider-p-top">Everything you need to have in order to create a</p>
+              <h1>stunning website</h1>
+              <p class="slider-p-bottom">Live Composer is a front-end content builder plugin for WordPress with 30+ modules (and more to come) packed with functionality and styling options that allow countless variations to be made easily and without any coding.</p>
+              <div class="slider-buttons">
+                <button class="btn our-btn-1">Discover Now</button>
+                <button class="btn our-btn-2">Contact Us</button>
+              </div>
+            </div>
+          </div><!-- Slider Item-->
+          <div class="carousel-item slider-item">
+            <img src="./images/2.jpg" alt="alider-image3">
+            <div class="slider-content">
+              <p class="slider-p-top">Everything you need to have in order to create a</p>
+              <h1>stunning website</h1>
+              <p class="slider-p-bottom">Live Composer is a front-end content builder plugin for WordPress with 30+ modules (and more to come) packed with functionality and styling options that allow countless variations to be made easily and without any coding.</p>
+              <div class="slider-buttons">
+                <button class="btn our-btn-1">Discover Now</button>
+                <button class="btn our-btn-2">Contact Us</button>
+              </div>
+            </div>
+          </div><!-- Slider Item-->
+  
+        </div> <!--carousel inner-->
+        
+        <!-- Slider arrow -->
+        <div class="slider-arrow">
+          <div class="arrow-left" id="our-id" data-slide="prev">
+            <a href="#">
+              <ion-icon name="chevron-back-outline"></ion-icon>
+            </a>
+          </div>
+          <div class="arrow-right" id="our-id" data-slide="next">
+            <a href="#">
+              <ion-icon name="chevron-forward-outline"></ion-icon>
+            </a>
+          </div>
+        </div>
+
+      </div> <!--Our id-->
+    </section>

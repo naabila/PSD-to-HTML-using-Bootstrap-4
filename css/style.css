@@ -6,11 +6,24 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    font-size: 10px;
+  
+   
 }
 html{
     font-size: 62.5%;
 }
+
+.btn{
+    padding: 1rem 3.5rem;
+    background: var;
+    border-radius: 3.5rem;
+    color: var(--green-dark);
+    font-size: 1.3rem;
+    border: none;
+    outline: none;
+    transition: all .3sec;
+    text-transform: uppercase;
+ }
 /* ======================================================================================================================== Common Class======================== */
 :root{
     --green-light: #8bc34a;
@@ -24,6 +37,9 @@ html{
 h1{
     font-size: 6rem;
     font-weight: bold;
+    color: #fff;
+    margin-top: -15px;
+    text-transform: uppercase;
 }
 h2{
     font-size: 3rem;
@@ -75,6 +91,7 @@ li{
     top: 1px;
     right: 40px;
     background-color: #e8e8e8;
+    text-transform: uppercase;
 }
 
 /* ================================================================================================================================================================ Header */
@@ -94,19 +111,22 @@ li{
     display:flex;
     align-items:center;
 }
-.top-left ul li,
-i{
+.top-left ul li,i{
     font-size: 1.3rem;
     color: var(--para-color);
-    
     margin-right: 1.5rem;
+    
+    
 
+}
+.top-left ul li i{
+    margin-right: .3rem;
 }
 .top-left ul li i{
     font-size: 1.3rem;
 }
 .menu-area{
-    height: 10rem;
+    height: 9rem;
     
     display:flex;
     justify-content:center;
@@ -121,6 +141,117 @@ ul.navbar-nav li a{
     margin-right: 1.5rem;
     margin-left: 1.5rem;
 }
-.menu-area li.nav-item active{
+.menu-area li.nav-item a.active{
     color: var(--green-dark);
 }
+.menu-area li.nav-item a:hover{
+    color: var(--green-dark);
+}
+ /* ================================================================================================================================================================ Slider */
+ 
+
+ .carousel-control-prev-icon{
+    position: relative;
+    left: -6.6rem;
+ }
+ .carousel-control-next-icon {
+    position: relative;
+    right: -6.6rem;
+}
+ .carousel-indicators li{
+    width: 8px;
+    height: 8px;
+    color: var(--footer-text);
+ }
+ .carousel-indicators .active{
+    border: 2px solid var(--para-color);
+
+ }
+ .slider-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+ .slider-content p{
+    color: #fff;
+
+ }
+ .slider-p-top{
+    margin-bottom: 2rem;
+    font-size: 2.4rem;
+    font-weight: 300;
+ }
+ .slider-p-bottom{
+    margin-bottom: 4rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+ }
+ .slider{
+    position: relative;
+   
+ }
+ .slider-buttons {
+    margin: 0 0 11rem 0;
+}
+ .our-btn-1{
+    background: var(--green-dark);
+    color: #fff;
+ }
+ .our-btn-1,
+ .our-btn-2{
+    margin: 0 1.7rem 0 1.7rem;
+ }
+ .our-btn-1:hover{
+    background: #fff;
+    color: var(--green-dark);
+   
+ }
+ .our-btn-2:hover{
+    background: var(--green-dark);
+    color: #fff;
+   
+ }
+ .carousel-item img{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    max-width: 100%;
+    width: 100%;
+    
+ }
+
+  /* ================================================================================================================================================================ About Us section */
+  section.about-section {
+    padding-left: 6rem;
+    margin: -10rem 0 0rem 0;
+}
+  .abt-btn{
+    color: var(--green-light);
+    border: 1px solid var(--green-light);
+    background: #fff;
+  }
+  .abt-para{
+    margin: 2rem 0 3rem 0;
+    line-height: 2.7rem;
+  }
+  .about-section img{
+    max-width: 100%;
+    box-shadow: -43px -39px 0px 0px rgba(76,175,80,1);
+   
+   
+
+  }
+  .abt-text{
+    margin-top: 15rem;
+    margin-bottom: 5rem;
+  }
+ 
+  .our-work{
+    background-color: #fafafa;
+  }
+
+
+
