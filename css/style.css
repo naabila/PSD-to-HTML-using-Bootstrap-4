@@ -49,6 +49,7 @@ p{
     font-size: 1.4rem;
     font-weight: normal;
     color: var(--para-color);
+    line-height: 2.5rem;
 
 }
 .sec-title{
@@ -357,4 +358,53 @@ margin: 1rem 0 1rem 0;
 .fancy-box img{
     max-width: 100%;
 }
+
+/* ===================================================================================================================== Recent Work================================ */
+.tab-contants{
+    padding: 10rem 0 10rem 0;
+}
+
+.tab-section ul{
+    border-bottom: 1px solid #ededed;
+    border-top: 1px solid #ededed;
+    margin: 0;
+}
+.tab-section ul li{
+    display: inline-block;
+    padding: 2rem 6rem;
+}
+.tab-section ul li.active{
+    border-bottom: 2px var(--green-light) solid;
+    background-color: #f7f7f7;
+    border-left: 1px solid #ededed;
+    border-right: 1px solid #ededed;
+
+}
+.tab-section ul li a{
+    font-size: 1.8rem;
+    color: var(--para-color);
+    text-decoration: none;
+}
+.tab-section ul li a i{
+    margin: 1.4rem;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.tab-contants{
+    background-color: #f7f7f7;
+    
+}
+.single-tab h2{
+    font-size: 3rem;
+    font-weight: 600;
+    color: var(--h2-color);
+    padding-bottom: 2rem;
+}
+.single-tab img{
+    max-width: 100%;
+
+}
+
+
 
