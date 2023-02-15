@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Bootstrap -->
     <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- Fancy box -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha512-H9jrZiiopUdsLpg94A333EfumgUBpO9MdbxStdeITo+KEIMaNfHNvwyjjDJb+ERPaRS6DpyRlKbvPUasNItRyw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Custom css -->
     <link rel="stylesheet" href="./css/style.css">
     <!-- Responsive Css -->
@@ -239,17 +241,87 @@
       <div class="container">
         <div class="row d-flex justify-content-center">
           <div class="col-md-12">
-             <!-- Section Title -->
-<div class="sec-title">
-  <div class="sub-title">Proudly Displaying Projects</div>
-  <h2>Recent <span>Work</span></h2>
-  <div class="bottom-style"></div>
-
-</div>  <!-- Sectitle -->
+            <!-- Section Title -->
+            <div class="sec-title">
+              <div class="sub-title">Proudly Displaying Projects</div>
+              <h2>Recent <span>Work</span>
+              </h2>
+              <div class="bottom-style"></div>
+            </div>
+            <!-- Sectitle -->
           </div>
         </div>
+        <div class="filter-btn">
+          <ul class="filter-btns d-flex justify-content-center">
+            <li class="mixitup-control-active" data-filter="all">All</li>
+            <li data-filter=".w-design">Website design</li>
+            <li data-filter=".g-design">Graphic Design</li>
+            <li data-filter=".branding">Branding</li>
+            <li data-filter=".w-dev">Web Development</li>
+            <li data-filter=".photography">Photography</li>
+          </ul>
 
-      </div>
+        </div> <!--f-btn-->
+        <div class="filter-image-container">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="mix g-design filter-content branding g-design w-design padding-around" data-order="1">
+                <img src="./images/gallery/post1.jpg" alt="item-1">
+                <div class="filter-overlay">
+                 
+                  <p class="h-100">+</p>
+                </div>
+              </div> <!--Filter Content-->
+              
+            </div>
+            <div class="col-md-4">
+              <div class="mix g-design filter-content w-design w-dev padding-around" data-order="2">
+                <img src="./images/gallery/post2.jpg" alt="item-1">
+                <div class="filter-overlay">
+                  <p class="h-100">+</p>
+                </div>
+              </div> <!--Filter Content-->
+              
+            </div>
+            <div class="col-md-4">
+              <div class="mix g-design filter-content g-design w-design w-dev padding-around" data-order="3">
+                <img src="./images/gallery/post3.jpg" alt="item-1">
+                <div class="filter-overlay">
+                  <p class="h-100">+</p>
+                </div>
+              </div> <!--Filter Content-->
+              
+            </div>
+            <div class="col-md-4">
+              <div class="mix filter-content photography branding padding-around" data-order="4">
+                <img src="./images/gallery/post4.jpg" alt="item-1">
+                <div class="filter-overlay">
+                  <p class="h-100">+</p>
+                </div>
+              </div> <!--Filter Content-->
+              
+            </div>
+            <div class="col-md-4">
+              <div class="mix g-design filter-content branding padding-around g-design" data-order="5">
+                <img src="./images/gallery/post5.jpg" alt="item-1">
+                <div class="filter-overlay">
+                  <p class="h-100">+</p>
+                </div>
+              </div> <!--Filter Content-->
+              
+            </div>
+            <div class="col-md-4">
+              <div class="mix filter-content branding w-design photography padding-around" data-order="6">
+                <img src="./images/gallery/post6.jpg" alt="item-1">
+                <div class="filter-overlay">
+                  <p class="h-100">+</p>
+                </div>
+              </div> <!--Filter Content-->
+              
+            </div>
+          </div>
+        </div>
+      </div> <!--container-->
     </section>
     <!-- Recent Work Do End -->
     <!-- Tab Start -->
@@ -265,11 +337,14 @@
     <!-- Footer Start -->
     <!-- Footer End -->
     <!-- Common Styles Start -->
+  
     <!-- Nav End -->
     <!-- Jquery -->
     <script src="./js/jquery-3.2.1.slim.min.js"></script>
     <!-- jquery plugins -->
     <script src="./js/plugins/owl.carousel.min.js"></script>
+    <script src="./js/plugins/mixitup.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <!-- Bootstrap js links -->
     <script src="./js/popper.js"></script>
     <script src="./js/bootstrap.bundle.min.js"></script>

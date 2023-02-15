@@ -252,7 +252,7 @@ ul.navbar-nav li a{
   .our-work{
     background-color: #fafafa;
     padding-top: 5rem;
-    padding-bottom: 5rem;
+   
     
    
   }
@@ -292,5 +292,69 @@ ul.navbar-nav li a{
 /* ===================================================================================================================== Recent Work================================ */
 .recent-work{
     padding: 8rem 10rem;
+}
+
+.filter-btn li{
+font-size: 1.4rem;
+font-weight: medium;
+padding: 4rem .8rem;
+position: relative;
+cursor: pointer;
+}
+.filter-btn li:after {
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: 1.5rem;
+    background: #000;
+    top: 50%;
+    right: 1px;
+    transform: translateY(-50%);
+}
+.filter-btn li:last-child::after{
+    width: 0;
+}
+.filter-content{
+    position: relative;
+    
+}
+.padding-around{
+margin: 1rem 0 1rem 0;
+}
+.filter-content img{
+    max-width: 100%;
+    
+
+}
+.filter-overlay{
+    position: absolute;
+    background: var(--green-dark);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+  
+}
+.filter-overlay:hover{
+   opacity: .8;
+    transition: .3s;
+}
+.filter-overlay p{
+    color: #fff;
+    font-weight: 100;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size: 13rem;
+    cursor: pointer;
+  
+}
+.mixitup-control-active{
+    color: var(--green-dark);
+}
+
+.fancy-box img{
+    max-width: 100%;
 }
 
