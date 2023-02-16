@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <!-- Bootstrap -->
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <!-- Fancy box -->
@@ -327,41 +329,68 @@
     <!-- Tab Start -->
     <section class="tab-section">
       
-        <ul class="tab-links d-flex justify-content-center">
-          <li class="active">
-            <a href=""><i class="fa-solid fa-arrow-trend-up"></i>Core Value</a>
-          </li>
-          <li>
-            <a href=""><i class="fa-regular fa-gem"></i>Core Features</a>
-          </li>
-          <li>
-            <a href=""><i class="fa-brands fa-codepen"></i>Company History</a>
-          </li>
-        </ul>
-        <div class="tab-contants">
-          <div class="container">
-            <div class="single-tab">
-              <div class="row">
-                <div class="col-md-7">
-                  <h2>Start your Business Today</h2>
-                  <p>Lorem ipsum dolor sit amet, in exerci interpretaris signiferumque nam, simul clita mediocrem ea sit. Legere euismod usu cu, everti officiis in pri, impetus placerat eu est. Choro diceret fuisset ex eam. Quo at illud conceptam. Errem dictas te pro, everti animal accumsan eum an, pri gloriatur adversarium ex. His ea singulis adipiscing, at probo liber prompta eam, eam putant tritani ea.</p> <br>
-                  
-                  <p>Lorem ipsum dolor sit amet, in exerci interpretaris signiferumque nam, simul clita mediocrem ea sit. Legere euismod usu cu, everti officiis in pri, impetus placerat eu est. Choro diceret fuisset ex eam. Quo at illud conceptam</p>
+      <ul class="d-flex justify-content-center nav tab-links" id="myTab">
+        <li class="nav-item">
+          <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true"><i class="fa-solid fa-chart-line"></i>Core Value</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false"><i class="fa-regular fa-gem"></i>Core Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false"><i class="fa-brands fa-codepen"></i>Company History</a>
+        </li>
+      </ul>
+      <div class="tab-parent tab-contants">
+      <div class="tab-content container" id="myTabContent">
+        <div class="tab-pane  fade show active" id="home">
+          <div class="row">
+            <div class="col-md-7">
+              <h2>Start your Business Today</h2>
+              <p>Lorem ipsum dolor sit amet, in exerci interpretaris signiferumque nam, simul clita mediocrem ea sit. Legere euismod usu cu, everti officiis in pri, impetus placerat eu est. Choro diceret fuisset ex eam. Quo at illud conceptam. Errem dictas te pro, everti animal accumsan eum an, pri gloriatur adversarium ex. His ea singulis adipiscing, at probo liber prompta eam, eam putant tritani ea.</p> <br>
+              
+              <p>Lorem ipsum dolor sit amet, in exerci interpretaris signiferumque nam, simul clita mediocrem ea sit. Legere euismod usu cu, everti officiis in pri, impetus placerat eu est. Choro diceret fuisset ex eam. Quo at illud conceptam</p>
 
-                </div>
-                <div class="col-md-5">
-                  <img src="./images/gallery/post5.jpg" alt="">
+            </div>
+            <div class="col-md-5">
+              <img class="tab-image" src="./images/gallery/post5.jpg" alt="tab-image">
 
-                </div>
-              </div>
             </div>
           </div>
-
         </div>
-      
+        <div class="tab-pane fade" id="profile">
+          <div class="row">
+            <div class="col-md-7">
+              <h2>Start your Business Today</h2>
+              <p>Lorem ipsum dolor sit amet, in exerci interpretaris signiferumque nam, simul clita mediocrem ea sit. Legere euismod usu cu, everti officiis in pri, impetus placerat eu est. Choro diceret fuisset ex eam. Quo at illud conceptam. Errem dictas te pro, everti animal accumsan eum an, pri gloriatur adversarium ex. His ea singulis adipiscing, at probo liber prompta eam, eam putant tritani ea.</p> <br>
+              
+              <p>Lorem ipsum dolor sit amet, in exerci interpretaris signiferumque nam, simul clita mediocrem ea sit. Legere euismod usu cu, everti officiis in pri, impetus placerat eu est. Choro diceret fuisset ex eam. Quo at illud conceptam</p>
+
+            </div>
+            <div class="col-md-5">
+              <img class="tab-image" src="./images/gallery/post3.jpg" alt="tab-image">
+
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="contact"><div class="row">
+          <div class="col-md-7">
+            <h2>Start your Business Today</h2>
+            <p>Lorem ipsum dolor sit amet, in exerci interpretaris signiferumque nam, simul clita mediocrem ea sit. Legere euismod usu cu, everti officiis in pri, impetus placerat eu est. Choro diceret fuisset ex eam. Quo at illud conceptam. Errem dictas te pro, everti animal accumsan eum an, pri gloriatur adversarium ex. His ea singulis adipiscing, at probo liber prompta eam, eam putant tritani ea.</p> <br>
+            
+            <p>Lorem ipsum dolor sit amet, in exerci interpretaris signiferumque nam, simul clita mediocrem ea sit. Legere euismod usu cu, everti officiis in pri, impetus placerat eu est. Choro diceret fuisset ex eam. Quo at illud conceptam</p>
+
+          </div>
+          <div class="col-md-5">
+            <img class="tab-image" src="./images/gallery/post2.jpg" alt="tab-image">
+
+          </div>
+        </div></div>
+      </div>
+    </div>
     </section>
     <!-- Tab End -->
     <!-- Call to action Start -->
+    
     <!-- Call to action End -->
     <!-- Team Member Start -->
     <!-- Team Member End -->

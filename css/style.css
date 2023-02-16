@@ -371,9 +371,9 @@ margin: 1rem 0 1rem 0;
 }
 .tab-section ul li{
     display: inline-block;
-    padding: 2rem 6rem;
+    
 }
-.tab-section ul li.active{
+.tab-section ul li a.active{
     border-bottom: 2px var(--green-light) solid;
     background-color: #f7f7f7;
     border-left: 1px solid #ededed;
@@ -384,11 +384,14 @@ margin: 1rem 0 1rem 0;
     font-size: 1.8rem;
     color: var(--para-color);
     text-decoration: none;
+    padding: 2rem 6rem;
+    text-align: center;
 }
 .tab-section ul li a i{
     margin: 1.4rem;
     font-size: 1.8rem;
     font-weight: 400;
+    color: var(--para-color);
 }
 
 .tab-contants{
@@ -401,9 +404,8 @@ margin: 1rem 0 1rem 0;
     color: var(--h2-color);
     padding-bottom: 2rem;
 }
-.single-tab img{
+img.tab-image {
     max-width: 100%;
-
 }
 
 
