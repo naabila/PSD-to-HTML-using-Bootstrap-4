@@ -58,6 +58,9 @@ font-weight: light;
 text-align: center;
 
 }
+img{
+    max-width: 100%;
+}
 h2 span{
     color: var(--green-light);
 }
@@ -407,6 +410,90 @@ margin: 1rem 0 1rem 0;
 img.tab-image {
     max-width: 100%;
 }
+/* ===================================================================================================================== Recent Work================================ */
+.call-to-action{
+    background-image: url('../images/2.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border-bottom: 5px solid var(--green-light);
+    margin-bottom: 10rem;
+}
+.call-content{
+   text-align: center;
+   padding: 13rem 0;
+   position: relative;
+}
+.call-content h2{
+    color: #fff;
+}
+button.call-action-btn.btn {
+    position: absolute;
+    top: 87%;
+    left: 37%;
+    /* transform: translate(-37%,-87%); */
+    margin-top: 2rem;
+    background-color: var(--green-light);
+    color: #fff;
+}
 
+
+.blog-section{
+    padding: 7rem 0 0 0;
+}
+.blog-space{
+    padding: 5rem 0;
+}
+.blog-content{
+    position: relative;
+}
+.blog-tag{
+    width: 4.5rem;
+    height: 8rem;
+    background-color: var(--green-light);
+    color: #fff;
+    box-shadow: 10px 10px 0px 0px rgba(111,156,59,1);
+    position: absolute;
+    bottom: 42%;
+    left: 3%;
+}
+.blog-tag p{
+    color: #fff;
+}
+.blog-tag h4{
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: -0.5rem;
+}
+.blog-content h3 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 3rem 0 01rem 0;
+}
+.blog-content small,
+.small-blog-content small{
+    color: var(--green-light);
+    font-size: 1.2rem;
+    margin: 2rem 0 3rem 0;
+}
+.blog-content small span,
+.small-blog-content small span{
+    color: var(--para-color);
+}
+.blog-content p{
+    margin-top: 1rem;
+}
+
+.small-blog-content{
+    background-color: #e6e6e6;
+    padding: 1.5rem;
+    margin-bottom: 3rem;
+}
+.small-blog-content h3{
+    color: var(--h2-color);
+    font-size: 1.4rem;
+    font-weight: medium;
+}
 
 
