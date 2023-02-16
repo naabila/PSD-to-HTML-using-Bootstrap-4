@@ -24,6 +24,9 @@ html{
     transition: all .3sec;
     text-transform: uppercase;
  }
+ img{
+    max-width: 100%;
+ }
 /* ======================================================================================================================== Common Class======================== */
 :root{
     --green-light: #8bc34a;
@@ -58,9 +61,7 @@ font-weight: light;
 text-align: center;
 
 }
-img{
-    max-width: 100%;
-}
+
 h2 span{
     color: var(--green-light);
 }
@@ -437,8 +438,45 @@ button.call-action-btn.btn {
     background-color: var(--green-light);
     color: #fff;
 }
+/* ===================================================================================================================== Recent Work================================ */
+
+.team-section img{
+    height: 30rem;
+    width: 26rem;
+    position: relative;
+    
+    
+}
+.team-content{
+    position: relative;
+}
+.team-overlay{
+    height: 30rem;
+    width: 26rem;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    
+}
+.team-overlay p{
+    color: #fff;
+    padding: 0 3rem;
+    margin-bottom: 2.8rem;
+
+}
+.team-overlay h4{
+    margin: 5.5rem 0 0 0;
+}
+.overlay-icon{
+    background-color: var(--green-light);
+    padding: 2.3rem 0 2rem 0;
+}
+.overlay-icon i{
+    color: #fff;
+}
 
 
+/* ===================================================================================================================== Blog Section ================================ */
 .blog-section{
     padding: 7rem 0 0 0;
 }
@@ -495,5 +533,18 @@ button.call-action-btn.btn {
     font-size: 1.4rem;
     font-weight: medium;
 }
+/* ===================================================================================================================== Logo Carousel================================ */
+.logo-item{
+    width: 40%;
+   
+}
+.owl-item{
+    width: 100px;
+}
+.logo-section{
+    padding: 8rem 0;
+    background-color: #fafafa;
+}
+
 
 
