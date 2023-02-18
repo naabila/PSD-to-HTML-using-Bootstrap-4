@@ -6,6 +6,7 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
   
    
 }
@@ -440,7 +441,7 @@ button.call-action-btn.btn {
 }
 /* ===================================================================================================================== Recent Work================================ */
 
-.team-section img{
+/* .team-section img{
     height: 30rem;
     width: 26rem;
     position: relative;
@@ -473,7 +474,7 @@ button.call-action-btn.btn {
 }
 .overlay-icon i{
     color: #fff;
-}
+} */
 
 
 /* ===================================================================================================================== Blog Section ================================ */
@@ -545,6 +546,132 @@ button.call-action-btn.btn {
     padding: 8rem 0;
     background-color: #fafafa;
 }
+.logo-section img{
+    margin: 0 4rem;
+}
+/*
+===================================================================================================================== Logo Carousel================================ */
 
 
+.team-content{
+text-align: center;
+position: relative;
+margin-bottom: 8rem;
 
+}
+.team-section .sec-title{
+    margin-bottom: 6rem;
+}
+.team-overlay-text {
+    position: absolute;
+    padding: 0;
+    color: #fff;
+    top: 120%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    transition: .5s;
+    visibility: hidden;
+    opacity: 0;
+}
+.team-content:hover .team-overlay-text{
+    top: 0%;
+    visibility: visible;
+    opacity: 1;
+}
+.team-overlay-text p{
+    color: #fff;
+    padding: 0 7rem;
+}
+.team-overlay-icons {
+    background-color: var(--green-light);
+    padding: 1.5rem 4.4em;
+    position: absolute;
+    /* left: 46px; */
+    width: 100%;
+}
+.team-overlay-icons i{
+    color: #fff;
+    display: inline-block;
+    
+}
+.team-overlay-icons i:hover,
+footer .widget-icon i:hover{
+    transform: rotate(360deg);
+    transition: all .3s;
+}
+
+.footer{
+    background-color: #262626;
+}
+.widget-heading {
+    display: inline-block;
+    padding-top: 10rem;
+}
+footer h4{
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 4rem;
+    color: var(--para-color);
+    text-align: center;
+}
+
+.f-widget-one{
+padding: 13rem 0 14rem 0;
+position: relative;
+background: #303030;
+}
+.f-widget-one::after {
+    position: absolute;
+    content: "";
+    background: #303030;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: -100%;
+    right: 1000rem;
+}
+.widget-logo a img{
+    margin-bottom: 4.5rem;
+}
+ul.footer-list{
+    margin: 0;
+    padding: 0;
+}
+ul.footer-list li{
+color: var(--para-color);
+font-size: 1.4rem;
+line-height: 2.5rem;
+font-weight: normal;
+}
+
+.footer-tweet i.fa-brands.fa-twitter {
+    margin-top: 7px;
+}
+.footer-tweet p{
+    padding-right: 34px;
+}
+footer form .f-input{
+    outline: 0;
+    border: 1px solid var(--para-color);
+    color: var(--para-color);
+    background: transparent;
+}
+.footer-bottom{
+    padding: 3rem 0 2rem 0;
+    background-color: #1c1c1c;
+}
+.footer-bottom span{
+    color: var(--green-light);
+    margin-left: 1rem;
+}
+
+/* ================ Owl test================================== */
+.lgo-item{
+    margin: 0 4rem;
+}

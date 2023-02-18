@@ -6,33 +6,22 @@ var mixer = mixitup(buttonContainer, {
 });
 // var mixer = mixitup(buttonContainer);
 
-$(document).ready(function(){
-    $('.owl-carousel').owlCarousel({
+$('.owl-carousel').owlCarousel({
     loop:true,
-    margin:0,
+    margin:10,
     nav:true,
     autoplay:true,
-    autoplayTimeout:4000,
+    autoplayTimeout:3000,
     responsive:{
         0:{
-            items:1,
-            nav:true
+            items:1
         },
         600:{
-            items:3,
-            nav:false
+            items:3
         },
         1000:{
-            items:5,
-            nav:true,
-            loop:false
+            items:5
         }
     }
-    
-    
-   
-    
-    
-    });
-  });
+})
 
