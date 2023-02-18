@@ -671,6 +671,25 @@ footer form .f-input{
     margin-left: 1rem;
 }
 
+.top {
+    background-color: #212121;
+    height: 5rem;
+    width: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 83%;
+    left: 93%;
+    border-radius: 5px;
+}
+
+.top a i{
+    color: #fff;
+    font-size: 3rem;
+    margin: 0;
+}
+
 /* ================ Owl test================================== */
 .lgo-item{
     margin: 0 4rem;
