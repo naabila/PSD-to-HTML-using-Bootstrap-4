@@ -1,4 +1,7 @@
 $(document).ready(function(){
+    //Wow js
+    new WOW().init();
+    //mixitup plugin
     const buttonContainer= document.querySelector('.filter-image-container');
 var mixer = mixitup(buttonContainer, {
     selectors: {
@@ -56,6 +59,19 @@ $(window).scroll(function(){
     }
 });
 
+//go to the section
+
+$('.navbar-nav a[href^="#"]').click(function(e){
+    e.preventDefault();
+
+    var target = this.hash;
+
+    $('html, body').animate({
+        scrollTop: $(target).offset().top - 50
+    }, 500);
+
+
+});
 
 
 
