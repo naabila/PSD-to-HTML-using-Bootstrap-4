@@ -1,4 +1,5 @@
-const buttonContainer= document.querySelector('.filter-image-container');
+$(document).ready(function(){
+    const buttonContainer= document.querySelector('.filter-image-container');
 var mixer = mixitup(buttonContainer, {
     selectors: {
         control: '[data-ref="mix"]'
@@ -23,11 +24,40 @@ $('.owl-carousel').owlCarousel({
             items:5
         }
     }
-})
+});
 
-//Sctoll to top
+
+
 $('.top').click(function(){
     $('html,body').animate({
         scrollTop:0
     },1000)
-})
+});
+$('.top').hide();
+
+$(window).scroll(function(){
+    var ourWindow= $(this).scrollTop();
+    if(ourWindow<700){
+        $('.top').fadeOut();
+
+    }else{
+        $('.top').fadeIn();
+    }
+});
+
+//Sticky nav
+$(window).scroll(function(){
+    var ourWindow= $(this).scrollTop();
+    if(ourWindow>100){
+        $('.menu-area').addClass('sticky');
+
+    }else{
+        $('.menu-area').removeClass('sticky');
+    }
+});
+
+
+
+
+
+});

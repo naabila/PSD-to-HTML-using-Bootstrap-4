@@ -132,11 +132,21 @@ li{
     font-size: 1.3rem;
 }
 .menu-area{
-    height: 9rem;
-    
+    height: 10rem;
+    transition: all .3s;
     display:flex;
     justify-content:center;
     align-items:center;
+}
+.sticky.menu-area{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    background-color: #fff;
+    height: 8rem;
+    box-shadow: -1px -3px 15px 0px rgb(0 0 0 / 55%);
 }
 ul.navbar-nav li a{
     font-size: 1.3rem;
@@ -179,6 +189,7 @@ ul.navbar-nav li a{
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
+    margin: 8rem 0;
 }
  .slider-content p{
     color: #fff;
